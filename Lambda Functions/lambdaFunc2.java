@@ -13,7 +13,7 @@ public void dis(){
 public class lambdaFunc2 {
     public static void main(String args[]){
 
-        intf1 obj1 = ()->System.out.println("Welcome to Lambda functions");
+        intf1 obj1 = ()-> System.out.println("Welcome to Lambda functions");
        obj1.dis();
 
     }
